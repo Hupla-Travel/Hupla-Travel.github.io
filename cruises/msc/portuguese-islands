@@ -10,20 +10,23 @@
 <body class="text-slate-900 text-normal font-['Heebo']">
     <div class="main-container container mx-auto flex flex-col pb-8 pl-2 pr-2 mt-xxs">
     
-<h3>Cruises</h3>
+The Portuguese Islands cruise is run by MSC.
 
 
-<ul>
+<div>
+Itinerary!
 
-<li><a href="/cruises/msc/portuguese-islands">Portuguese Islands</a></li>
 
-<li><a href="/cruises/msc/namibia">Namibia</a></li>
+    Day: 1<br>
+    Day 1
 
-<li><a href="/cruises/ncl/lord-featherbottom">Lord Featherbottom</a></li>
+    Day: 2<br>
+    Day 2
 
-<li><a href="/cruises/ncl/pennywise">Pennywise</a></li>
 
-</ul>
+</div>
+
+
 
     </div>
 </body>
