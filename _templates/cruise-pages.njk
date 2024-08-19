@@ -8,3 +8,5 @@ permalink: "cruises/{{ cruise.cruiseLine | slugify }}/{{ cruise.name | slugify }
 ---
 
 The {{ cruise.name }} cruise is run by {{ cruise.cruiseLine }}.
+
+{% include "partials/itinerary.njk" %}

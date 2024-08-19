@@ -1,0 +1,11 @@
+{% if cruise.itinerary %}
+<div>
+Itinerary!
+
+{% for item in cruise.itinerary %}
+    Day: {{ item.day }}<br>
+    {{ item.title }}
+{% endfor %}
+
+</div>
+{% endif %}
