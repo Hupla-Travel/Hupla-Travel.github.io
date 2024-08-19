@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --hupla-blue: rgb(30, 64, 175);
+    --primary-color: var(--hupla-blue);
+}
+
+/* body {
+    background-color: lightgray;
+} */
+
+.main-container {
+    max-width: 720px;
+}
+
+a {
+    color: var(--hupla-blue);
+    text-decoration: underline;
+}
+
+em {
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.hupla-cruiseline-msc .hupla-reference {
+    position: relative;
+    top: -6px;
+}
+
+.mt-xxs {
+    margin-top: 0.625rem;  /* 10px */
+}
+
+.text-xxs {
+    font-size: 0.625rem;  /* 10px */
+}
+
+.text-xxxs {
+    font-size: 0.5rem;  /* 8px */
+}
