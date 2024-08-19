@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Portuguese Islands",
+		"cruiseLine": "MSC",
+		"itinerary": [
+			{
+				"day": "1",
+				"title": "Day 1"
+			},
+			{
+				"day": "2",
+				"title": "Day 2"
+			}
+		]
+	},
+	{
+		"name": "Namibia",
+		"cruiseLine": "MSC",
+		"itinerary": [
+			{
+				"day": "1",
+				"title": "Day 1 hooray!"
+			},
+			{
+				"day": "2",
+				"title": "Day 2 wonderful!"
+			},
+			{
+				"day": "3",
+				"title": "Day 3 amazing!"
+			}
+		]
+	},
+	{
+		"name": "Lord Featherbottom",
+		"cruiseLine": "NCL"
+	},
+	{
+		"name": "Pennywise",
+		"cruiseLine": "NCL"
+	}
+]

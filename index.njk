@@ -1,0 +1,13 @@
+---
+layout: "layouts/base.njk"
+---
+
+<h3>Cruises</h3>
+
+{% if cruises %}
+<ul>
+{% for cruise in cruises %}
+<li><a href="/cruises/{{ cruise.cruiseLine | slugify }}/{{ cruise.name | slugify }}">{{ cruise.name }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
